@@ -1,0 +1,19 @@
+Tabela verdade (e)
+V e V -> V
+V e F -> F
+F e ? -> F
+
+Tabela verdade (ou)
+V ou ? -> V
+F ou V -> V
+F ou F -> F
+
+Tabela verdade (ou exclusivo (xor))
+V xor V -> F
+V xor F -> F
+F xor V -> V
+F xor F -> F
+
+Tabela verdade (negação lógica)
+!V -> F
+!F -> V
