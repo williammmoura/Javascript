@@ -14,6 +14,7 @@ const imprimirResultado = function(nota){
             break
         default:
             console.log('Nota inválida.')
+            break
     }
 }
 
