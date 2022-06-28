@@ -97,4 +97,4 @@ function resultado(cont200, cont100, cont50, cont20, cont10, cont5, cont2){
     return resultado
 }
 
-console.log(saqueDinheiro(338))
+console.log(saqueDinheiro(399))
