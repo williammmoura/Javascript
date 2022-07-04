@@ -32,4 +32,4 @@ const obj = Object.assign(dest, o1, o2)//Pode passar varios objetos.
 
 Object.freeze(obj)
 obj.c = 1234
-console.log(obj)
+console.log(obj)    
