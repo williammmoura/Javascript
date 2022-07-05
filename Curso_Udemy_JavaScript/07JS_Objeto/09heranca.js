@@ -4,7 +4,7 @@
 Object.prototype.attr0 = '0' //Não recomendado.
 
 const avo = {attr1: 'A'}
-const pai = {__proto__: avo, Attr2: 'B'}
+const pai = {__proto__: avo, Attr2: 'B', attr3: '3' /**sombreamento*/}
 const filho = {__proto__: pai, attr3: 'C'}
 console.log(filho.attr1) //Procurando no 'filho', 'pai' e 'avo' onde acho o attr1, que é igual a "A".
 console.log(filho.attr0, filho.attr1, filho.Attr2, filho.attr3)
@@ -28,13 +28,13 @@ const carro = {
 
 const ferrari = {
     modelo: 'f40',
-    velMax: 324 //shadowing
+    velMax: 324 //shadowing -> a variável pode sombrear outras variáveis de escopo mais abrangentes.
 }
 
 const volvo = {
     modelo: 'v40',
     status(){
-        return `${this.modelo}: ${super.status()}`
+        return `${this.modelo}: ${super.status()}.`//"super" para referenciar o protótipo.
     } 
 }
 
