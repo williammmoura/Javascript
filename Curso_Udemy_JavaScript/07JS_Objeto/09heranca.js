@@ -1,5 +1,11 @@
 //Cadeia de protótipos (prototype chain)
 
+/**
+ * "Imagine que queremos pegar uma propriedade qualquer de um objeto. Quando fizermos a requisição desta propriedade, o engine vai primeiramente olhar no objeto em si e ver se ela existe, se ela não existir então ele vai olhar no __proto__ deste objeto, que é o protótipo, se não existir ali também, então ele vai olhar no __proto__ deste __proto__ e assim vai até ele encontrar um objeto com uma propriedade __proto__ igual a null ."
+ * 
+ * (Fonte:medium.com/trainingcenter/herança-e-protótipos-no-javascript-2c1e60e005a2)
+ */
+
 //Ex.1:
 Object.prototype.attr0 = '0' //Não recomendado.
 
