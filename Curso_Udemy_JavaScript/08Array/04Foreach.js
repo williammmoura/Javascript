@@ -9,7 +9,7 @@ Fonte:https://blog.betrybe.com/javascript/javascript-foreach/
 //Ex.1:
 const aprovados = ['Silvana', 'Carol', 'William', 'Andressa', 'Victória']
 aprovados.forEach(function(nome, indice){
-    console.log(`${indice + 1}) ${nome}`)
+    console.log(`${indice + 1}) ${nome}`)//Template string.
 })
 //Ex.2:
 aprovados.forEach(nome => console.log(nome))
