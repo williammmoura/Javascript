@@ -12,7 +12,7 @@ aprovados.forEach(function(nome, indice){
     console.log(`${indice + 1}) ${nome}`)//Template string.
 })
 //Ex.2:
-aprovados.forEach(nome => console.log(nome))
+aprovados.forEach((indice,nome) => console.log(indice,nome))
 
 //Ex.3:
 const exibirAprovados = aprovados => console.log(aprovados)
