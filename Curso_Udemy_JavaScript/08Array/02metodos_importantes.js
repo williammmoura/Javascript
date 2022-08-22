@@ -23,5 +23,5 @@ console.log(pilotos)
 const algunsPilotos = pilotos.slice(2) //Retorna um novo array. Pegar um pedaço do array.
 console.log(algunsPilotos)
 
-const algunsPilotos1 = pilotos.slice(1, 4)
+const algunsPilotos1 = pilotos.slice(0, 4)
 console.log(algunsPilotos1)
