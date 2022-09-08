@@ -5,6 +5,7 @@ Array.prototype.filter2 = function(callback){
             newArray.push(this[i])
         }
     }
+    return newArray
 }
 
 const produtos = [
@@ -17,6 +18,4 @@ const produtos = [
 const prodcaros = produtos => produtos.preco >= 2000
 const prodfragil = produtos => produtos.fragil
 
-const resultado = produtos.filter2(prodcaros).filter2(prodfragil);
-
-console.log(produtos.filter2(caro).filter2(fragil));
+console.log(produtos.filter2(prodcaros).filter2(prodfragil));
