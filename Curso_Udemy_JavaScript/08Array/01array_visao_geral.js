@@ -14,9 +14,13 @@ console.log(aprovados[1])
 console.log(aprovados[2])
 console.log(aprovados[3])
 
+console.log('----------------------------------')
+
 aprovados[3] = 'Caroline'
 aprovados.push('Andressa')
 console.log(aprovados.length)
+
+console.log('----------------------------------')
 
 aprovados[9] = 'Victória'
 console.log(aprovados.length)
