@@ -5,8 +5,8 @@ const imprimirSoma = function(a, b){
 imprimirSoma(2, 3);
 
 //Armazenando uma função arrow em uma variável.
-const soma = (a, b) => {
-    return a + b;
+const soma = (parametroA, parametroB) => {
+    return parametroA + parametroB;
 }
 
 console.log(soma(2, 3));
