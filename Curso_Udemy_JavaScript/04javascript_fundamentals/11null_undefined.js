@@ -1,7 +1,7 @@
 let valor; //não inicializada.
 console.log(valor);
 
-valor = null; //ausência de valor.
+valor = null; //ausência de valor. A variável, que antes poderia ter um valor agora passa estar vazia.
 console.log(valor);
 //console.log(valor.toString()); //ERRO!
 
