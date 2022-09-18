@@ -3,6 +3,8 @@
  * tenho um identificador e passo um valor para
  * ele (texto, boolean, função...).
  */
+
+/*Objeto criado dinamicamente.*/
 const prod1 = {};
 prod1.nome = "Celular Ultra Mega";
 prod1.preco = 4999.90;
