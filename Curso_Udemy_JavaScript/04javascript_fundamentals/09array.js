@@ -9,6 +9,8 @@ console.log(valores.length);
 /**Função "push".
  * Para adicionar novos elementos no array.
  */
+
+/*JS, por ser uma linguagem fracamente tipada ele aceita colocar, dentro de um array, um "objeto", "um boolean"... NÃO É UMA BOA PRÁTICA!*/
 valores.push({id: 3}, false, null, "teste");/**
 Array é heterogêneo, ou seja, aceita multiplos
 valores.*/
