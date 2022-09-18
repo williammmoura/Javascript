@@ -10,7 +10,7 @@ console.log(isAtivo);
 */
 isAtivo = 1;
 console.log(!!isAtivo); /*Aqui é coloca o sim-
-bolo "!!", que signifiva negação. */
+bolo "!", que signifiva negação. */
 /**
  * Explicação:
  * Usando duas vezes o simbolo de negação(!),
