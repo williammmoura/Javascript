@@ -26,7 +26,7 @@ bolo "!", que signifiva negação. */
 console.log("Os verdadeiros...");
 console.log(!!3);
 console.log(!!-1);
-console.log(!!" ");
+console.log(!!" ");//Espaço em branco é considerado como não vazio.
 console.log(!![]);//Array.
 console.log(!!{});
 console.log(!!Infinity);
