@@ -1,8 +1,8 @@
 //Par, Nome/Valor
-const saudacao = "Opa"; //Contexto léxico 1.
+const saudacao = "Opa"; //Contexto léxico 1. -> local físico de onde a variável foi definido.
 
 function exec() {
-    const saudacao = "Falaaa!"; //Contexto léxico 2.
+    const saudacao = "Falaaa!"; //Contexto léxico 2. A constante foi definida dentro da função.
     return saudacao;
 }
 

@@ -1,3 +1,4 @@
+//Curiosidade.
 /**Hoisting (içamento) */
 console.log("a =", a); //Gera um "undefined".
 var a = 2;

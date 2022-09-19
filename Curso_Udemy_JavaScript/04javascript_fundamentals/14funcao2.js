@@ -12,9 +12,9 @@ const soma = (parametroA, parametroB) => {
 console.log(soma(2, 3));
 
 //Retorno implícito.
-const subtração = (a, b) => a - b;
+const subtração = (a, b) => a - b;//Executa apenas uma sentença de código.
 
 console.log(subtração(3, 2));
 
-const imprimir2 = a => console.log(a);
+const imprimir2 = a => console.log(a);//Quando tiver apenas 1 parâmetro não será necessário ficar entre perentes.
 imprimir2("Legal!!!");
