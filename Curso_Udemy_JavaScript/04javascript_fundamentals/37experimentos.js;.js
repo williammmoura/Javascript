@@ -16,6 +16,6 @@ console.log(module.exports);
 
 //Criando uma variável maluca, ou seja, sem var e let.
 abc = 3; //não fazer isso!
-console.log(global.abc);
+console.log(global.abc);//Colocando uma variável global no Node.
 
 //module.exports = { e: 456, f: false, g: 'teste' }
