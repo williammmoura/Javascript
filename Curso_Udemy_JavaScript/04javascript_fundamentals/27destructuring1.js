@@ -12,11 +12,11 @@ const pessoa ={
     }
 };
 /**Usando o DESTRUCTURING.*/
-const{ nome, idade} = pessoa;
+const{ nome, idade} = pessoa;//Tirando do objeto "pessoa" os atributos "nome" e "idade".
 console.log(nome, idade);
 
 //Para mudar o nome da variável.
-const{ nome: n , idade: i} = pessoa;
+const{ nome: n , idade: i} = pessoa;//Substituindo: Tirando do objeto, os atributos "nome" e colocando "n", assim como, excluir o atributo "idade" e colocando "i".
 console.log(n, i);
 
 //Atributo que NÃO existe dentro do objeto.
