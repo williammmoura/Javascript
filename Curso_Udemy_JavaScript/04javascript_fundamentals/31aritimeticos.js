@@ -9,3 +9,6 @@ const modulo = a % 2;
 console.log(soma, subtracao, multiplicacao, -divisao, modulo);
 /*"-divisao" -> temos um operador unário, ou sejá, irá converter o resultado da divisão 
 em um número negativo.*/
+
+//pré-fixado => ++a
+//pós-fixado => a++
