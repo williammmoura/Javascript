@@ -1,6 +1,6 @@
 function soma(){
     let soma = 0
-    for (i in arguments) {
+    for (i in arguments) {/*Propriedade "arguments" -> é um array.*/
         soma += arguments[i] //cada índice do array vira um argumento. 
     }
     return soma

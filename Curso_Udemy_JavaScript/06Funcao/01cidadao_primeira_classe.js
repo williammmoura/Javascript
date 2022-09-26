@@ -30,6 +30,7 @@ function soma(a, b) {
     }
 }
 
-soma(2, 3)(4)
-const cincoMais = soma(2, 3)
-cincoMais(4)
+soma(2, 3)(5)/*"(4)" está relacionado com o parâmetro "c", que está dentro do "return" da função "soma". Por tanto, para que a soma seja feita conforme está no "console.log", deve ter os valores de a, b e c.*/
+
+const cincoMais = soma(2, 3)/*Aqui foi criada uma constante "cincoMais", que recebe a função "soma(2, 3)".*/
+cincoMais(4)//Valor da constante "cincoMais" é 4, que será adiciona ao valor da função "soma", cujo, os valores dos parâmetros são 2 e 3.
